@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "Hamster-Kombat-Telegram-Mini-App-Clone",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
